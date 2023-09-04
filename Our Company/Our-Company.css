@@ -1,0 +1,488 @@
+.pbody{
+font-family: Open Sans, sans-serif;
+font-size: 16px;
+font-weight :400;
+text-align:justify;
+
+
+}
+
+.abody{
+font-family: Open Sans, sans-serif;
+font-size: 16px;
+font-weight :400;
+
+}
+
+.header_earth{
+font-family: Open Sans, sans-serif;
+font-size: 30px;
+font-weight :400;
+color:#0076BE;
+
+}
+
+.header_sun{
+font-family: Open Sans, sans-serif;
+font-size: 30px;
+font-weight :400;
+color:#F7921E;
+
+}
+
+.container1{
+padding:70px;
+}
+
+.b-title{
+font-family: Open Sans, sans-serif;
+font-size: 50px;
+font-weight :400;
+color:#FFFF;
+}
+
+.b-subtitle{
+font-family: Open Sans, sans-serif;
+font-size: 16px;
+font-weight :400;
+color:#FFFF;
+}
+
+.tablebg{
+width: 50%; 
+border: none; 
+background-color: rgba(51, 117, 185, 0.5);
+}
+
+
+/* about us */
+
+.setup-ac{
+            font-family: 'Lexend Deca';
+            font-weight: 300;
+            padding: 0;
+            margin: 0;
+
+        }
+        .objpos-gamma{
+            object-position: bottom;
+        }
+        .container-au-ac {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 50px;
+        }
+        .content-au-left{
+            background-color: white;
+            color: black;
+        }
+        .content-au-right{
+            /* border-top: #71257f solid 2px;
+            border-bottom: #71257f solid 2px; */
+            color: black;
+        }
+        .img-sc-au-left{
+            width: 480px;
+            height: 350px;
+            object-fit: scale-down;
+            position: relative;
+            float: left;
+            padding-left: 80px;
+        }
+        .img-sc-au-right{
+            width: 480px;
+            height: 350px;
+            object-fit: scale-down;
+            position: relative;
+            float: right;
+            padding-right: 136px;
+        }
+        .content-au-left>img , .content-au-right>img{
+            width: 585px;
+            height: 350px;
+            object-fit: cover;
+            position: relative;
+
+        }
+        .content-au-left>img{
+            float: left;
+            padding-left: 50px;
+        }
+        .content-au-right>img{
+            float: right;
+            padding-right: 50px;
+        }
+        .content-au-right-sc{
+            color: black;
+        }
+        .content-au-left-sc{
+            color: black;
+        }
+        .title-content-au-left, .title-content-au-right{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .title-content-au-left{
+            color: #71257f;
+            width: 46%;
+            float: right;
+            padding-top: 60px;
+            padding-right: 100px;
+        }
+        .title-content-au-right{
+            color: #71257f;
+            width: 40%;
+            float: left;
+            padding-top: 60px;
+            padding-left: 100px;
+        }
+        .detail-au-left{
+            line-height: 2;
+            float: right;
+            width: 46%;
+            padding-right: 100px;
+            font-weight: 300;
+        }
+        .detail-au-right{
+            line-height: 2;
+            float: left;
+            width: 47%;
+            padding-left: 100px;
+            font-weight: 300;
+        }
+
+/* Purpose & Value */
+.bg-info-pv{
+            background-color: #71257f;
+            height: 300px;
+            width: 68%;
+            margin-left: auto;
+        }
+        .a-part>img{
+            width: 570px;
+            height: 570px;
+            object-fit: cover;
+            position: relative;
+            float: right;
+            padding: 15px 0px 20px 0px;
+        }
+        .title-apart , .title-bpart{
+            font-size: 22px;
+            color: #71257f;
+            font-weight: 500;
+        }
+        .title-bpart{
+            padding-top: 15px;
+            padding-left: 130px;
+            color: #ffdf00;
+        }
+
+        
+        .detail-bpart{
+            padding: 0px 60px 50px 130px;
+            line-height: 2;
+            color: white;
+        }
+        .b-part>img{
+            width: 455px;
+            height: 300px;
+            object-fit: cover;
+            position: relative;
+            float: left;
+            border-top: #71257f solid 2px;
+            border-left: #71257f solid 2px;
+            border-bottom: #71257f solid 2px;
+        }
+        .b-part>div>div>a{
+            border: 2px solid white;
+            color: white;
+            padding: 2px 20px;
+            text-decoration: none;
+            transition: none;
+        }
+        .b-part>div>div>a:hover{
+            background-color: black;
+            border: 2px solid black;
+        
+        }
+        .c-part{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            clear: both;
+            text-align: center;
+            gap: 40px;
+            padding-top: 30px
+        }
+
+        .content-pv-1 { grid-area: 1 / 1 / 2 / 2; }
+        .content-pv-2 { grid-area: 1 / 2 / 2 / 3; }
+        .content-pv-3 { grid-area: 1 / 3 / 2 / 4; }
+
+        
+        .c-part>a{
+            border: 2px solid black;
+            color: black;
+            padding: 2px 20px;
+            text-decoration: none;
+            transition: none
+        }
+        .c-part>a:hover{
+            color: white;
+            background-color: black;
+        }
+        .detail-cpart{
+            text-align: left;
+            padding: 5px 25px 0px 27px;
+            font-weight: 300;
+        }
+        .title-cpart{
+            text-align: center;
+            color: #71257f;
+            font-weight: 500;
+            font-size: 20px;
+            padding-top: 20px;
+        }
+        .b-part>div>div{
+            padding-left: 130px;
+        }
+        .c-part{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            clear: both;
+            text-align: center;
+            gap: 40px;
+        }
+      .pv-img{
+            width: 390px;
+            height: 280px;
+            object-fit: cover;
+        }
+      .detail-apart , .detail-bpart{
+            line-height: 1.6;
+            margin-right: auto;
+            font-weight: 300;
+        }
+        .detail-apart{
+            height: 400px;
+            width: 45%;
+        }
+         .title-apart , .title-bpart{
+            font-size: 22px;
+            color: #71257f;
+            font-weight: 500;
+        }
+        .title-ourhighlight{
+            padding-left: 25px;
+
+        }
+        .a-part, .b-part{
+            width: 100%;
+            margin: auto;
+            padding: 0;
+        }
+        
+        .iframe-vid-4th{
+        
+         text-align: center;
+         object-fit: cover;
+        }
+        .download-button-a{
+            border: solid 1px black;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            padding: 2px 20px;
+            font-weight: 600;
+        }
+        .download-button-a:hover{
+            color: white;
+            transition: none;
+            background-color: black;
+        }
+        .detail-dpart, .detail-comingsoon{
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Lexend Deca';
+        }
+        .detail-comingsoon{
+            color: white;
+            font-size: 25px;
+            padding-top: 31%;
+        }
+        .vid-grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 35px;
+            grid-row-gap: 0px;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+        .vid-grid-content{
+            border: 1px solid black;
+            background-color: #71257f;
+        }
+        .vid-caption-4th{
+            color: white;
+        }
+        .cp-part4{
+            font-weight: 500;
+            font-size: 22px;
+            color: #71257f;
+        }
+   /*Management Team & Boards of Director */
+   .setup-au-hp{
+   font-family: 'Lexend Deca';
+            font-size: 16px;
+            font-weight: 300;
+            margin: 0;
+            padding: 0;
+   }
+   .img-invert{
+   transform: scaleX(-1);
+   }
+   
+   .content-l{
+            position: relative;
+            height: 250px;
+            flex-direction: row;
+        }
+        .content-r{
+            position: relative;
+            right: 0;
+            height: 250px;
+        }
+        .container-auhp{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            overflow: auto;
+            flex-direction: column;
+            gap: 2em;
+        }
+        .img-cl{
+            position: absolute;
+            right: 0;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: 0 10%;
+        }
+        .img-cr{
+            position: absolute;
+            left: 0;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: 0 10%;
+        }
+        .left{
+            width: 80%;
+            line-height: 1.6;
+            padding: 0px 10px 0px 20px;
+            font-weight: 300;
+        }
+        .right{
+            width: 80%;
+            float: right;
+            position: relative;
+            line-height: 1.6;
+            padding: 0px 20px 0px 10px;
+            font-weight: 300;
+        }
+        .name-p{
+            text-align: center;
+            font-size: 20px;
+            font-weight: 500;
+            color: #71257f;
+            margin: 0;
+        }
+        .position-p{
+            text-align: center;
+            font-size: 18px;
+            font-weight: 300;
+            color: #71257f;
+        }
+        hr.hr-div{
+            border-top: 1px solid #ffdf00;
+            width: 20vw;
+            margin: auto;
+        }
+        .line-svc{
+            width: 50%;
+            margin: auto;
+            border-top: 1px solid #ffdf00;
+            padding-bottom: 20px;
+        }    
+
+/* Strategy Value Chain */
+        .p1-sv {
+        font-family: "Lexend Deca";
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1.6;
+        color: #71257f;
+        padding-left: 50px;
+        width: 40%;
+        float: left;
+        padding-right: 20px;
+      }
+      .p2-sv {
+        font-family: "Lexend Deca";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.6;
+        color: black;
+        padding-right: 40px;
+        width: 60%;
+        float: right;
+      }
+      .pic-vid-sv {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .p-table1-sv {
+        font-family: "Lexend Deca";
+        color: #71257f;
+        font-weight: 500;
+        font-size: 22px;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      .p-table2-sv {
+        font-family: "Lexend Deca";
+        font-weight: 300;
+        font-size: 16px;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      .bg-table-1-sv {
+        border: solid #71257f 1px;
+        height: 215px;
+      }
+      .left-img-sv {
+        border-radius: 50% 0px 0px 50%;
+        width: 203px;
+        height: 215px;
+        object-fit: cover;
+      }
+      .right-img-sv {
+        border-radius: 0px 50% 50% 0px;
+        width: 203px;
+        height: 215px;
+        object-fit: cover;
+      }
+      .title-para-sv {
+        font-family: "Lexend Deca";
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+        color: #71257f;
+        margin: 0;
+        padding-top: 20px;
+      }

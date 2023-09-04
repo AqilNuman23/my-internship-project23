@@ -1,0 +1,188 @@
+/* about us */
+.set-it {
+        font-weight: 300;
+        font-family: "lexend Deca";
+        font-size: 16px;
+      }
+      .img-au-it {
+        float: left;
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+        object-position: top;
+      }
+      .t-au-it,
+      .p-au-it {
+        margin-left: auto;
+        width: 58%;
+        font-weight: 300;
+        padding-right: 90px;
+      }
+      .t-au-it{
+         padding-bottom: 8px;
+         font-weight: 600;
+         font-size: 22px;
+         color: #71257f;
+      }
+      .p-au-it{
+         line-height: 1.8;
+      }
+
+/* what we do */
+.set-it {
+        font-weight: 300;
+        font-family: "lexend Deca";
+        font-size: 16px;
+      }
+      .container-it-wwd {
+        display: grid;
+      }
+      .img-it {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+      }
+      .t-wwd {
+        color: #71257f;
+        padding-bottom: 15px;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+      }
+      .p-wwd {
+        line-height: 1.7;
+        margin: 0;
+        font-weight: 300;
+      }
+      .content-it-wwd {
+        margin: 0;
+        padding-bottom: 25px;
+      }
+      .content-it-wwd > div > a {
+        padding: 5px 20px;
+        border: solid black 2px;
+        background-color: white;
+        font-weight: 400;
+        color: black;
+        text-decoration: none;
+      }
+      .content-it-wwd > div > a:hover {
+        background-color: black;
+        color: white;
+      }
+      summary {
+        cursor: pointer;
+        padding: 1em;
+        background: #71257f;
+        color: white;
+        margin-bottom: 1em;
+        outline: none;
+        display: flex;
+        align-items: center;
+        height: auto;
+      }
+      summary > img {
+        height: 35px;
+      }
+      .indent-u-wwd {
+        list-style-position: outside;
+            padding-left: 40px;
+    background-color: white;
+      }
+      .cu-wwd {
+        color: #71257f;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 10px;
+      }
+      .cu-wwd-t {
+        padding-left: 20px;
+        color: #71257f;
+        font-weight: 400;
+        font-size: 18px;
+      }
+      .underline-wwd {
+        color: #ffdf00;
+        width: 15%;
+        border-bottom: solid #ffdf00 1px;
+        margin: auto;
+        margin-top: 0;
+      }
+
+/* contact us */
+      .format-cu{
+         font-family: 'Lexend Deca';
+         font-weight: 300;
+         font-size: 16px;
+      }
+      .head-cu{
+         width: 30%;
+         margin: auto;
+         padding-bottom: 20px;
+      }
+      .title-cu-a{
+         font-size: 22px;
+         font-weight: 500;
+         color: #71257f;
+         margin: 0;
+      }
+      .title-cu-b{
+         font-size: 39px;
+         font-weight: 700;
+         color: #71257f;
+         margin: 0;
+      }
+      .container-cu{
+         grid-template-columns: repeat(3, 1fr);
+         display: grid;
+         text-align: center;
+      }
+      .container-cu-b{
+         grid-template-columns: repeat(2, 1fr);
+         display: grid;
+         gap: 40px;
+      }
+      .content-cu>img{
+         width: 300px;
+         height: 250px;
+         object-fit: cover;
+         object-position: top;
+      }
+      .img-cu-noc-cmt{
+         width: 300px;
+         height: 250px;
+         object-fit: cover;
+         object-position: top;
+      }
+      .icon-cu{
+         width: 15%;
+         object-fit: cover;
+         object-position: top;
+         float: left;
+      }
+      .content-cu-b{
+         padding: 5px;
+      }
+      .footer-cu{
+         width: 60%;
+         margin: auto;
+      }
+      .p-cu-b{
+         text-align: center;
+         font-weight: 500;
+         font-size: 18px;
+         margin: 0 auto;
+         padding-bottom: 10px;
+         color: #71257f;
+         border-bottom: 1px solid #ffdf00;
+         width: 80%;
+      }
+      .content-cu-b>div>p{
+         margin: 0 auto;
+      }
+      .mail-cu{
+         text-decoration: none;
+         color: #0000ee;
+      }
