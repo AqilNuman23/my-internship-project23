@@ -9,6 +9,7 @@ To make the redraw process faster, I'm using [Wireframe.cc](https://www.wirefram
 - Pictures are taken from [Freepik](https://www.freepik.com/).
 - The layout you see, may be differ from original layout because it actually made for SharePoint's layout structure.
 
+<!--- 
 # Website Output 
 You can click on below link to see the output of the website
 ## Our Company
@@ -33,3 +34,5 @@ You can click on below link to see the output of the website
 - [Contact Us](https://www.freepik.com/)
 - [What We Do](https://www.freepik.com/)
 - [Information Technology](https://www.freepik.com/)
+
+-->
