@@ -1,3 +1,7 @@
+body {
+  margin: auto;
+  max-width: 1315px;
+}
 /* About Us v3 */
 .primary-aboutUs {
   font-family: 'Lexend Deca';
@@ -247,7 +251,7 @@
     }
     .img-header-cu-hr>img{
       position: absolute;
-      top: 55px;
+      top: 33px;
     }
     .box-cu-hr{
       width: 41%;
