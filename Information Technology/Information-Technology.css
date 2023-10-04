@@ -1,4 +1,8 @@
 /* about us */
+body {
+  margin: auto;
+  max-width: 1315px;
+}
 .set-it {
         font-weight: 300;
         font-family: "lexend Deca";
